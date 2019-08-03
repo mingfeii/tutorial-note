@@ -18,4 +18,10 @@
 5. `git commit -m "msg' file `
 6. `git push  origin master` or `git push  -u origin master`
 
-
+#### 版本控制
+* `git status` 查看提交状态
+* `git difff `
+* `git log` 命令显示从最近到最远的提交日志
+> Git的commit id不是1，2，3……递增的数字，而是一个SHA1计算出来的一个非常大的数字，用十六进制表示
+* Git中，用HEAD表示当前版本，也就是最新的提交,上一个版本就是HEAD^
+* `git reset ` 回退，`git reset --hard HEAD^` 回退上一个版本，`git reset --hard 1094a` 版本号不用写全
