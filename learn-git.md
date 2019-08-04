@@ -22,6 +22,8 @@
 * `git status` 查看提交状态
 * `git difff `
 * `git log` 命令显示从最近到最远的提交日志
-> Git的commit id不是1，2，3……递增的数字，而是一个SHA1计算出来的一个非常大的数字，用十六进制表示
-* Git中，用HEAD表示当前版本，也就是最新的提交,上一个版本就是HEAD^
+* `git`的commit id不是1，2，3……递增的数字，而是一个SHA1计算出来的一个非常大的数字，用十六进制表示
+* `git`中，用HEAD表示当前版本，也就是最新的提交,上一个版本就是HEAD^
 * `git reset ` 回退，`git reset --hard HEAD^` 回退上一个版本，`git reset --hard 1094a` 版本号不用写全
+* `git checkout -- readme.txt`意思就是，把readme.txt文件在工作区的修改全部撤销,就是让这个文件回到最近一次git commit或git add时的状态
+* `git rm`删除文件，并且`git commit`
